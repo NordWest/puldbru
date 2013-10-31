@@ -12,7 +12,7 @@
 <img src="/img/logo.jpg" hspace="10" vspace="10" border="1"> 
 </div>
                                                                              
-<div class="c4">
+<div class="c4" align="center">
 юярпнлерпхвеяйхе аюгш дюммшу оскйнбяйни наяепбюрнпхх
 </div>
 
