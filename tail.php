@@ -4,7 +4,7 @@
 /*
 if (DEBUG)
    {
-   echo "<!--\n<pre>\nŒ“À¿ƒŒ◊Õ¿ﬂ »Õ‘Œ–Ã¿÷»ﬂ \n";
+   echo "<!--\n<pre>\n–û—Ç–ª–∞–¥–æ—á–Ω–∞—è –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏—è \n";
    echo "\nSession ";
    print_r($_SESSION);
    echo "</pre>\n-->";

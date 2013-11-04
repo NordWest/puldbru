@@ -1,6 +1,6 @@
 <html>
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
    <link rel="stylesheet" href="style.css" type="text/css" media="all">
    <title>Pulkovo Astrometrical Databases</title>
 </head>
@@ -13,15 +13,15 @@
 </div>
                                                                              
 <div class="c4" align="center">
-АСТРОМЕТРИЧЕСКИЕ БАЗЫ ДАННЫХ ПУЛКОВСКОЙ ОБСЕРВАТОРИИ
+РђРЎРўР РћРњР•РўР РР§Р•РЎРљРР• Р‘РђР—Р« Р”РђРќРќР«РҐ РџРЈР›РљРћР’РЎРљРћР™ РћР‘РЎР•Р Р’РђРўРћР РР
 </div>
 
 
 <hr width="90%">
 <div align="center">
-<a href='index.php'>На главную страницу</a>
+<a href='index.php'>РќР° РіР»Р°РІРЅСѓСЋ СЃС‚СЂР°РЅРёС†Сѓ</a>
  | Page <? echo session('page_cnt') ?>
  | User: <? echo session('login') ?> (<? echo session('full_name') ?>)
- | <a href='index.php?logout=1'>Выход</a>
+ | <a href='index.php?logout=1'>Р’С‹С…РѕРґ</a>
 </div>
 <hr width="90%">
