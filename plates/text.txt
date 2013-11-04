@@ -1,0 +1,48 @@
+<?
+
+include "main.php";
+#error_reporting(E_ALL);
+
+         $q = "select * from plates_$instr where num_bak regexp '^[^0-9]?0*$num\$' ";
+if ($id) $q = "select * from plates_$instr where id='$id'+0 ";
+
+$r = sql($q);
+$t = mysql_fetch_array($r);
+$t['obs_time'] = str_replace("\n", ", ", $t['obs_time']);
+$t['c0'      ] = str_replace("\n", ", ", $t['c0']);
+
+$a = array(
+   'instr',
+   'num_bak',
+   'obj',
+   'obs_date',
+   'ra1',
+   'ra2',
+   'dec1',
+   'dec2',
+   'obs_time',
+   'u',
+   'n_exp',
+   'exp',
+   'size',
+   'emu',
+   'filter',
+   'ph',
+   't',
+   'b',
+   'f',
+   'c0',
+   'observer',
+   'cond',
+   'loc',
+   'meas',
+   'ed'   
+);
+                                                                                                                                                                                          
+foreach ($a as $k => $v)
+   {
+   echo str_replace("\n", " ", $t[$v])."\n";
+   }
+
+?>  
+
